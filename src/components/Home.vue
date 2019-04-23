@@ -35,8 +35,8 @@
     data () {
       return {
         meetups: [
-          { imageUrl: 'https://cdn.pixabay.com/photo/2016/10/22/15/32/water-1761027_960_720.jpg', id: 'afajfjadfaadfa323', title: 'Meetup in New York' },
-          { imageUrl: 'https://cdn.pixabay.com/photo/2012/02/16/12/09/service-13475_960_720.jpg', id: 'aadsfhbkhlk1241', title: 'Meetup in Paris' }
+          { imageUrl: 'https://cdn.pixabay.com/photo/2016/10/22/15/32/water-1761027_960_720.jpg', id: 'afajfjadfaadfa323', title: 'GARANTA UMA AGUA DE QUALIDADE PARA SUA FAMILIA, MANTENHA A CAIXA HIGIENIZADA DE 6 EM 6 MESES!' },
+          { imageUrl: 'https://cdn.pixabay.com/photo/2012/02/16/12/09/service-13475_960_720.jpg', id: 'aadsfhbkhlk1241', title: 'LIMPEZA DE CAIXA D\'AGUA!' }
         ]
       }
     }
@@ -46,10 +46,10 @@
 <style scoped>
   .title {
     position: absolute;
-    bottom: 50px;
-    background-color: rgba(0,0,0,0.5);
+    top: 55%;
+    background-color: #1976d2;
     color: white;
     font-size: 2em;
-    padding: 20px;
+    padding: 25px;
   }
 </style>
